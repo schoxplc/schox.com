@@ -1,0 +1,59 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %title Schox PLC
+    %meta{:content => "", :name => "description"}
+    %meta{:content => "", :name => "author"}
+    / Le HTML5 shim, for IE6-8 support of HTML elements
+    /[if lt IE 9]
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    / Le styles
+    %link{:href => "http://twitter.github.com/bootstrap/1.4.0/bootstrap.css", :rel => "stylesheet"}
+    %link{:href => "/css/bootstrap-overrides", :rel => "stylesheet"}
+    %link{:href => "/css/main", :rel => "stylesheet"}
+    / Le fav and touch icons
+    %link{:href => "/images/favicon.ico", :rel => "shortcut icon"}
+    %link{:href => "/images/apple-touch-icon.png", :rel => "apple-touch-icon"}
+    %link{:href => "/images/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}
+    %link{:href => "/images/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}
+    <meta http-equiv="refresh" content="30">
+
+  %body
+    .topbar
+      .fill
+        .container
+          %a.brand{:href => "#"} Schox PLC
+          %ul.nav
+            %li.active
+              %a{:href => "#"} Home
+            %li
+              %a{:href => "#"} TBD
+            %li
+              %a{:href => "mailto:"} TBD
+          %form.pull-right{:action => ""}
+            %input.input-small{:placeholder => "Username", :type => "text"}
+            %input.input-small{:placeholder => "Password", :type => "password"}
+            %button.btn{:type => "submit"} Sign in
+    .container
+      .content
+        .page-header
+          %h1
+            Title
+            
+        .row
+          .span10
+            \#{yield}
+          .span4
+            %h3 (side)
+            = yield_content :sidebar
+      %footer
+        %p © 140 Proof 2012
+    / /container
+    <script src='http://platform.twitter.com/anywhere.js?id=FOO_REPLACE_ME&amp;v=1'></script>
+    :javascript
+      twttr.anywhere(function (T) {
+        T.linkifyUsers();
+        T.hovercards();
+      });
+
