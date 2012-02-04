@@ -14,8 +14,29 @@ before do
 end
 
 get "/" do
-  haml :index
+  haml :intro
 end
+
+get "/clients" do
+  haml :clients
+end
+
+get "/contact" do
+  haml :contact
+end
+
+get "/founder" do
+  haml :founder
+end
+
+get "/team" do
+  haml :team
+end
+
+get "/clients/:client" do
+  haml :"clients/#{params[:client]}"
+end
+
 
 get "/css/:stylesheet" do |css|
   content_type "text/css", :charset => "utf-8"
