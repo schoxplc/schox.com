@@ -1,0 +1,12 @@
+add web fonts
+add video button
+add video player
+bottom nav
+  - amazon link
+  - twitter link
+add linkedin URLs to bios
+spell-check text
+cross-browser test
+
+DONE add height + width to images
+DONE fix grid width
