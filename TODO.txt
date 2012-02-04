@@ -1,12 +1,13 @@
-add web fonts
+convert fonts to web format
+style fonts
 add video button
 add video player
-bottom nav
-  - amazon link
-  - twitter link
+format bottom nav
 add linkedin URLs to bios
 spell-check text
 cross-browser test
 
 DONE add height + width to images
 DONE fix grid width
+DONE amazon link
+DONE twitter link
