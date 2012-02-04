@@ -29,6 +29,10 @@ get "/founder" do
   haml :founder
 end
 
+get "/omission" do
+  haml :omission
+end
+
 get "/team" do
   haml :team
 end
