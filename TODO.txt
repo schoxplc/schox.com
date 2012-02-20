@@ -1,13 +1,26 @@
-convert fonts to web format
+add hover behavior to top nav
+Cut schox icon bottom images
+Re-cut images as single files + use them as left/right BGs
+Zap control-character Gremlins in PSD text
+solve "un-embeddable fonts" problem (cut PNGs for header)
+reverse text black/white on sidebar
 style fonts
 add video button
-add video player
+add video player (https://vimeo.com/34667665)
 format bottom nav
 add linkedin URLs to bios
 spell-check text
+get disclaimer text from schox
+rip out bootstrap bullshit
 cross-browser test
+check: is Sve Up correct?
+thank for 140 proof mention
 
 DONE add height + width to images
 DONE fix grid width
 DONE amazon link
 DONE twitter link
+DONE add PNG logo
+DONE cut client patent images
+DONE align top nav to right side
+DONE reverse text black/white on top nav
