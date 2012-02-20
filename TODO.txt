@@ -30,4 +30,5 @@ DONE style header logo
 DONE style sidebar with padding + links
 DONE add hover behavior to top nav
 DONE add active persistance to top nav
-add dividers for top nav
+DONE add dividers for top nav
+DONE make height globally consistent for sidebar + images
