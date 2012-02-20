@@ -1,6 +1,5 @@
-add hover behavior to top nav
+space top nav correctly
 Cut schox icon bottom images
-Zap control-character Gremlins in PSD text
 solve "un-embeddable fonts" problem (cut PNGs for header)
 reverse text black/white on sidebar
 style fonts
@@ -14,6 +13,7 @@ rip out bootstrap bullshit
 cross-browser test
 check: is Sve Up correct?
 thank for 140 proof mention
+add hover behavior to top nav
 
 DONE add height + width to images
 DONE fix grid width
@@ -25,3 +25,4 @@ DONE align top nav to right side
 DONE reverse text black/white on top nav
 DONE Re-cut images as single files + use them as left/right BGs
 DONE cut PNG headers for top nav
+DONE Zap control-character Gremlins in PSD text
