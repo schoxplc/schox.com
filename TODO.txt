@@ -1,4 +1,3 @@
-add schox icon images to client section
 style fonts
 add video button
 add video player (https://vimeo.com/34667665)
@@ -11,6 +10,7 @@ cross-browser test
 check: is Sve Up correct?
 thank for 140 proof mention
 get URL for itunes podcasts
+shorten "medical" + "contact" text by a line
 make favicon
 
 DONE set up sinatra app in ruby
@@ -40,3 +40,5 @@ DONE make height globally consistent for sidebar + images
 DONE space top nav correctly
 DONE cut images for bottom nav
 DONE cut schox icon images
+DONE add schox icon images to client section
+DONE make icons indicator move according to section

@@ -87,7 +87,7 @@
   background : #000;
   color      : #fff;
   height     : 498px;
-  opacity    : 0.8;
+  opacity    : 0.6;
   padding    : 10px;
   width      : 280px;
 }
@@ -100,6 +100,31 @@
   color: #ddd;
   text-decoration: underline;
 }
+
+#schoxbar {
+  margin-top: 10px;
+}
+
+#schoxbar .icons {
+  background-image : url(/images/nav/schox-icons.png);
+  height           : 40px;
+  margin           : 0 auto;
+  width            : 218px;
+}
+
+#schoxbar .indicator {
+  background-image    : url(/images/nav/dot.png);
+  background-position : 0 0;
+  height              : 10px;
+  margin              : 10px auto 0 auto;
+  width               : 218px;
+}
+
+#schoxbar.software  .indicator { background-position : 15px 0; }
+#schoxbar.medical   .indicator { background-position : 60px 0; }
+#schoxbar.cleantech .indicator { background-position : 102px 0; }
+#schoxbar.ecommerce .indicator { background-position : 147px 0; }
+#schoxbar.consumer  .indicator { background-position : 192px 0; }
 
 /* FOOTER */
 
