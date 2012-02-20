@@ -12,7 +12,6 @@ rip out bootstrap bullshit
 cross-browser test
 check: is Sve Up correct?
 thank for 140 proof mention
-add hover behavior to top nav
 
 DONE add height + width to images
 DONE fix grid width
@@ -30,3 +29,4 @@ DONE remove extra bootstrap styles
 DONE reverse text black/white on sidebar
 DONE style header logo
 DONE style sidebar with padding + links
+DONE add hover behavior to top nav
