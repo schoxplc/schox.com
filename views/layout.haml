@@ -22,7 +22,7 @@
     .topbar
       .container
         %a.brand{:href => "/"}
-          %img{:src => "/images/logo.png", :alt => "Schox PLC"}
+          Schox PLC
         %div{:class => 'pull-right'}
           %ul.nav
             %li.intro
@@ -36,11 +36,8 @@
             %li.contact
               %a{:href => "/contact"} Contact
 
-    .container
+    .container.main
       .content
-        .page-header
-          %h1#logo
-            Patent Group
         .row
           .span11
             \#{yield}
