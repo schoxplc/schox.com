@@ -1,3 +1,4 @@
+- page_id = request.path_info.gsub(%r{/}, '')
 !!!
 %html{:lang => "en"}
   %head
@@ -25,15 +26,15 @@
           Schox PLC
         %div{:class => 'pull-right'}
           %ul.nav
-            %li.intro
+            %li.intro{:class => (page_id.empty? ? "active" : "")}
               %a{:href => "/"} Intro
-            %li.founder
+            %li.founder{:class => (page_id == "founder" ? "active" : "")}
               %a{:href => "/founder"} Founder
-            %li.team
+            %li.team{:class => (page_id == "team" ? "active" : "")}
               %a{:href => "/team"} Team
-            %li.clients
+            %li.clients{:class => (page_id == "clients" ? "active" : "")}
               %a{:href => "/clients"} Clients
-            %li.contact
+            %li.contact{:class => (page_id == "contact" ? "active" : "")}
               %a{:href => "/contact"} Contact
 
     .container.main
