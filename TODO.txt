@@ -1,6 +1,6 @@
+Re-cut images as single files + use them as left/right BGs
 add hover behavior to top nav
 Cut schox icon bottom images
-Re-cut images as single files + use them as left/right BGs
 Zap control-character Gremlins in PSD text
 solve "un-embeddable fonts" problem (cut PNGs for header)
 reverse text black/white on sidebar
