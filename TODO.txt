@@ -1,4 +1,3 @@
-space top nav correctly
 Cut schox icon bottom images
 style fonts
 add video button
@@ -32,3 +31,4 @@ DONE add hover behavior to top nav
 DONE add active persistance to top nav
 DONE add dividers for top nav
 DONE make height globally consistent for sidebar + images
+DONE space top nav correctly
