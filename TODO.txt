@@ -3,7 +3,6 @@ add video button
 add video player (https://vimeo.com/34667665)
 vformat bottom nav
 add linkedin URLs to bios
-spell-check text
 get disclaimer text from schox
 rip out bootstrap bullshit
 cross-browser test
@@ -42,3 +41,4 @@ DONE cut images for bottom nav
 DONE cut schox icon images
 DONE add schox icon images to client section
 DONE make icons indicator move according to section
+DONE spell-check text
