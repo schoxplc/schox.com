@@ -1,4 +1,3 @@
-add dividers for top nav
 space top nav correctly
 Cut schox icon bottom images
 style fonts
@@ -31,3 +30,4 @@ DONE style header logo
 DONE style sidebar with padding + links
 DONE add hover behavior to top nav
 DONE add active persistance to top nav
+add dividers for top nav

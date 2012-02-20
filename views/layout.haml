@@ -28,12 +28,16 @@
           %ul.nav
             %li.intro{:class => (page_id.empty? ? "active" : "")}
               %a{:href => "/"} Intro
+            %li.divider
             %li.founder{:class => (page_id == "founder" ? "active" : "")}
               %a{:href => "/founder"} Founder
+            %li.divider
             %li.team{:class => (page_id == "team" ? "active" : "")}
               %a{:href => "/team"} Team
+            %li.divider
             %li.clients{:class => (page_id == "clients" ? "active" : "")}
               %a{:href => "/clients"} Clients
+            %li.divider
             %li.contact{:class => (page_id == "contact" ? "active" : "")}
               %a{:href => "/contact"} Contact
 

@@ -3,7 +3,8 @@
 }
 
 .topbar, .topbar .container {
-  height: 140px;
+  position: relative;
+  height: 40px;
 }
 
 .topbar a.brand {
@@ -25,6 +26,14 @@
   margin-right        : 10px;
   text-indent         : -4000px;
   width               : 70px;
+}
+
+.topbar li.divider:hover,
+.topbar li.divider {
+  background-position : 0 -2px;
+  height              : 20px;
+  width               : 5px;
+  background-image: url(/images/nav/divider.png); 
 }
 
 .topbar li.intro   { 
@@ -79,7 +88,7 @@
   color      : #fff;
   height     : 518px;
   opacity    : 0.8;
-  padding    : 8px;
+  padding    : 10px;
   width      : 280px;
 }
 
