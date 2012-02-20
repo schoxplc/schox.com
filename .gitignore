@@ -3,4 +3,5 @@
 *.swp
 *~
 .gems
+TODO.txt
 tmp/
