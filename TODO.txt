@@ -1,4 +1,3 @@
-Re-cut images as single files + use them as left/right BGs
 add hover behavior to top nav
 Cut schox icon bottom images
 Zap control-character Gremlins in PSD text
@@ -24,3 +23,5 @@ DONE add PNG logo
 DONE cut client patent images
 DONE align top nav to right side
 DONE reverse text black/white on top nav
+DONE Re-cut images as single files + use them as left/right BGs
+DONE cut PNG headers for top nav
