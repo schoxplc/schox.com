@@ -1028,7 +1028,7 @@
 		wrap
 			.stop()
 			.animate({
-				'top' : parseInt(Math.max(view[3] - 148, view[3] + ((view[1] - content.height() - 148) * 0.5) - currentOpts.padding)),
+				'top' : 110,
 				'left' : parseInt(Math.max(view[2] - 40, view[2] + ((view[0] - content.width() - 60) * 0.5) - currentOpts.padding))
 			}, typeof arguments[0] == 'number' ? arguments[0] : 200);
 	};
