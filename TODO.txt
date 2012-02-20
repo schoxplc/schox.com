@@ -29,3 +29,4 @@ DONE set sidebar width to exactly 300
 DONE remove extra bootstrap styles
 DONE reverse text black/white on sidebar
 DONE style header logo
+DONE style sidebar with padding + links
