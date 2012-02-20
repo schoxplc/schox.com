@@ -20,9 +20,10 @@
 
   %body
     .topbar
-      .fill
-        .container
-          %a.brand{:href => "/"} Schox PLC
+      .container
+        %a.brand{:href => "/"}
+          %img{:src => "/images/logo.png", :alt => "Schox PLC"}
+        %div{:class => 'pull-right'}
           %ul.nav
             %li.active
               %a{:href => "/"} Intro
@@ -66,6 +67,7 @@
               Call us at 888.123.4567
             #read
               Read our disclaimer
+
       %footer
         %p © Schox PLC, 2012
     / /container
