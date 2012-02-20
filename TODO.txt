@@ -1,8 +1,8 @@
-Cut schox icon bottom images
+add schox icon images to client section
 style fonts
 add video button
 add video player (https://vimeo.com/34667665)
-format bottom nav
+vformat bottom nav
 add linkedin URLs to bios
 spell-check text
 get disclaimer text from schox
@@ -10,7 +10,13 @@ rip out bootstrap bullshit
 cross-browser test
 check: is Sve Up correct?
 thank for 140 proof mention
+get URL for itunes podcasts
+make favicon
 
+DONE set up sinatra app in ruby
+DONE set up github organization + repo
+DONE provision on heroku cloud
+DONE load all text from PSDs into Haml files
 DONE add height + width to images
 DONE fix grid width
 DONE amazon link
@@ -32,3 +38,5 @@ DONE add active persistance to top nav
 DONE add dividers for top nav
 DONE make height globally consistent for sidebar + images
 DONE space top nav correctly
+DONE cut images for bottom nav
+DONE cut schox icon images
