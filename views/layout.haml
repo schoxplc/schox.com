@@ -1,4 +1,5 @@
-- page_id = request.path_info.gsub(%r{/}, '')
+- page_id = request.path_info.gsub(%r{/}, '_').gsub( /^_/, '')
+- page_id = page_id.empty? ? "intro" : page_id
 !!!
 %html{:lang => "en"}
   %head
@@ -19,14 +20,14 @@
     %link{:href => "/images/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}
     %link{:href => "/images/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}
 
-  %body
+  %body{:class => page_id }
     .topbar
       .container
         %a.brand{:href => "/"}
           Schox PLC
         %div{:class => 'pull-right'}
           %ul.nav
-            %li.intro{:class => (page_id.empty? ? "active" : "")}
+            %li.intro{:class => (page_id == "intro" ? "active" : "")}
               %a{:href => "/"} Intro
             %li.divider
             %li.founder{:class => (page_id == "founder" ? "active" : "")}
@@ -46,8 +47,10 @@
         .row
           .span11
             \#{yield}
-          .span3.sidebar
-            = yield_content :sidebar
+          .span3.sidebar_photo
+            .sidebar_black
+              .sidebar
+                = yield_content :sidebar
 
         .row.footer
           .span6.book
