@@ -9,7 +9,6 @@ cross-browser test
 check: is Sve Up correct?
 thank for 140 proof mention
 get URL for itunes podcasts
-shorten "medical" + "contact" text by a line
 make favicon
 
 DONE set up sinatra app in ruby
@@ -42,3 +41,4 @@ DONE cut schox icon images
 DONE add schox icon images to client section
 DONE make icons indicator move according to section
 DONE spell-check text
+DONE shorten "medical" + "contact" text by a line (A16Z/CRV)
