@@ -25,6 +25,10 @@ get "/contact" do
   haml :contact
 end
 
+get "/disclaimer" do
+  haml :disclaimer
+end
+
 get "/founder" do
   haml :founder
 end
