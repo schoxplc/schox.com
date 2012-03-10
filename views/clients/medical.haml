@@ -1,10 +1,8 @@
 .bg
 
 -content_for :sidebar do
-  %a{ :href=> "/clients"}
-    %em &laquo; Clients
-
   %h4 Medical and Health Technologies
+  %p
 
   %p
     We represent more than a dozen clients that focus on medical
@@ -36,6 +34,5 @@
     intravenous catheters
     | Series A funding from Arboretum Ventures
 
-  #schoxbar.medical
-    .icons
-    .indicator
+  #clients_nav.medical
+    = partial 'clients/nav'

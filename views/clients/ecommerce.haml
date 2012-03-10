@@ -1,10 +1,8 @@
 .bg
 
 -content_for :sidebar do
-  %a{ :href=> "/clients"}
-    %em &laquo; Clients
-
   %h4 Mobile &amp; Payments
+  %p
 
   %p
     While eCommerce has been a trend for a long time, there is a
@@ -39,6 +37,5 @@
     loan services
     | Series A funding from Lightspeed Venture Partners
 
-  #schoxbar.ecommerce
-    .icons
-    .indicator
+  #clients_nav.ecommerce
+    = partial 'clients/nav'

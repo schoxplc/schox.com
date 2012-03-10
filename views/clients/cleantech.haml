@@ -1,10 +1,8 @@
 .bg
 
 -content_for :sidebar do
-  %a{ :href=> "/clients"}
-    %em &laquo; Clients
-
   %h4 Cleantech
+  %p
 
   %p
     There are many startups that are solving the energy and transportation issues of the world. We represent more than a dozen clients that focus on clean technologies, including:
@@ -35,6 +33,5 @@
     lightweight vehicles and mobility hotspots
     | Seed funding from Lightspeed Venture Partners and Lemnos Labs
 
-  #schoxbar.cleantech
-    .icons
-    .indicator
+  #clients_nav.cleantech
+    = partial 'clients/nav'

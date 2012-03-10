@@ -124,6 +124,7 @@
   padding    : 10px;
   width      : 280px;
   line-height: 1.5em;
+  position: relative;
 }
 
 .sidebar * {
@@ -157,30 +158,42 @@
   background-position: 0 -90px;
 }
 
-#schoxbar {
-  margin-top: 10px;
+/* CLIENTS NAV */
+
+#clients_nav {
+  position: absolute;
+  height: 64px;
+  margin: 10px auto 0 auto;
+  width: 240px;
+  bottom: 0;
+  left: 36px;
 }
 
-#schoxbar .icons {
-  background-image : url(/images/nav/schox-icons.png);
+#clients_nav a {
+  background-image : url(/images/nav/client-icons.png);
+  display          : block;
+  float            : left;
   height           : 40px;
-  margin           : 0 auto;
-  width            : 218px;
+  margin           : 0 5px 0 0;
+  text-indent      : -4000px;
+  width            : 40px;
 }
 
-#schoxbar .indicator {
-  background-image    : url(/images/nav/dot.png);
-  background-position : 0 0;
-  height              : 10px;
-  margin              : 10px auto 0 auto;
-  width               : 218px;
-}
+#clients_nav a.software  { background-position :    0px 0px; }
+#clients_nav a.medical   { background-position :  -45px 0px; }
+#clients_nav a.cleantech { background-position :  -90px 0px; }
+#clients_nav a.ecommerce { background-position : -135px 0px; }
+#clients_nav a.consumer  { background-position : -180px 0px; }
 
-#schoxbar.software  .indicator { background-position : 15px 0; }
-#schoxbar.medical   .indicator { background-position : 60px 0; }
-#schoxbar.cleantech .indicator { background-position : 102px 0; }
-#schoxbar.ecommerce .indicator { background-position : 147px 0; }
-#schoxbar.consumer  .indicator { background-position : 192px 0; }
+/* lame hack since FFX can't do independent x/y background position;
+ * see: http://commadot.com/background-position-y-firefox-fails/ and
+ * http://snook.ca/archives/html_and_css/background-position-x-y
+ */
+#clients_nav a:hover.software  { background-position :    0px -40px; }
+#clients_nav a:hover.medical   { background-position :  -45px -40px; }
+#clients_nav a:hover.cleantech { background-position :  -90px -40px; }
+#clients_nav a:hover.ecommerce { background-position : -135px -40px; }
+#clients_nav a:hover.consumer  { background-position : -180px -40px; }
 
 /* FOOTER */
 

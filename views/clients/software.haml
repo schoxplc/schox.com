@@ -1,10 +1,8 @@
 .bg
 
 -content_for :sidebar do
-  %a{ :href=> "/clients"}
-    %em &laquo; Clients
-
   %h4 Software
+  %p
 
   %p There are many startups that are solving the communication and security issues of society. We represent more than a dozen clients that focus on software platforms and APIs, including:
 
@@ -33,6 +31,5 @@
     phone services API
     | Series C funding from Bessemer Venture Partners and Union Square Ventures
 
-  #schoxbar.software
-    .icons
-    .indicator
+  #clients_nav.software
+    = partial 'clients/nav'

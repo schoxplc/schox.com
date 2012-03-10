@@ -1,10 +1,8 @@
 .bg
 
 -content_for :sidebar do
-  %a{ :href=> "/clients"}
-    %em &laquo; Clients
-
   %h4 Consumer Products
+  %p
 
   %p
     There is a resurgence in startups that design and make consumer products. Some of these startups are hybrid companies, with both significant hardware and software aspects. We represent more than a dozen clients that focus on consumer products, including:
@@ -35,6 +33,5 @@
     tactile surfaces
     | Series A funding from Thomvest Ventures
 
-  #schoxbar.consumer
-    .icons
-    .indicator
+  #clients_nav.consumer
+    = partial 'clients/nav'
