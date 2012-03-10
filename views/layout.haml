@@ -31,7 +31,7 @@
             %li.intro{:class => (page_id == "intro" ? "active" : "")}
               %a{:href => "/"} Intro
             %li.divider
-            %li.founder{:class => (page_id == "founder" ? "active" : "")}
+            %li.founder{:class => ((page_id == "founder" || page_id == "omission") ? "active" : "")}
               %a{:href => "/founder"} Founder
             %li.divider
             %li.team{:class => (page_id == "team" ? "active" : "")}
