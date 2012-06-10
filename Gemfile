@@ -1,7 +1,6 @@
 source :rubygems
 
 gem "haml"
-gem "nokogiri"
 gem "heroku"
 gem "sinatra"
 gem "sinatra-content-for"

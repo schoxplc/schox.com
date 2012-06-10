@@ -2,7 +2,6 @@
 
 require "haml"
 require "net/http"
-require "nokogiri"
 require "sinatra"
 require "sinatra/content_for"
 require "uri"
