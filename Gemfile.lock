@@ -45,6 +45,6 @@ PLATFORMS
 DEPENDENCIES
   haml
   heroku
-  sinatra
-  sinatra-bundles
-  sinatra-content-for2
+  sinatra (= 1.3.2)
+  sinatra-bundles (= 0.5.3)
+  sinatra-content-for2 (= 0.3)

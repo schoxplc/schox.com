@@ -2,8 +2,9 @@
 
 require "haml"
 require "net/http"
+require "rubygems"
 require "sinatra"
-#require "sinatra/bundles"
+require "sinatra/bundles"
 require "sinatra/content_for2"
 require "uri"
 
