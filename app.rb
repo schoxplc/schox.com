@@ -8,12 +8,6 @@ require "sinatra/bundles"
 require "sinatra/content_for2"
 require "uri"
 
-configure do
-end
-
-before do
-end
-
 get "/" do
   haml :intro
 end
