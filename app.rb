@@ -3,7 +3,8 @@
 require "haml"
 require "net/http"
 require "sinatra"
-require "sinatra/content_for"
+require "sinatra/bundles"
+require "sinatra/content_for2"
 require "uri"
 
 configure do
