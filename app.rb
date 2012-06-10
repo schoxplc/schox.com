@@ -4,8 +4,8 @@ require "haml"
 require "net/http"
 require "rubygems"
 require "sinatra"
-require "sinatra/bundles"
-require "sinatra/content_for2"
+#require "sinatra/content_for2"
+require 'sinatra/content_for'
 require "uri"
 
 get "/" do
@@ -49,6 +49,11 @@ end
 
 not_found do
   haml :"404"
+end
+
+error do
+  @e = request.env["sinatra_error"]
+  File.read(File.join("public", "index.html"))
 end
 
 helpers do
